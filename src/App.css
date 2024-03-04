@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  /* background-color: rgb(119, 198, 232); */
+  background: url(./assets/img/Landingpage.jpg);
+  background-size: cover;
+  margin-top: 0;
+}
+.clima {
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px auto;
+  background: linear-gradient(130deg, rgb(57, 120, 237), rgb(12, 12, 118));
+  box-shadow: 5px 5px 15px rgb(65, 65, 65);
+  text-align: center;
+  color: white;
+}
+.buscador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.lupa {
+  width: 30px;
+  height: 30px;
+}
+.buscador button {
+  border: none;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buscador input {
+  border: none;
+  outline: 0;
+  padding: 12px 25px;
+  font-size: 17px;
+  background-color: ghostwhite;
+  color: black;
+  border-radius: 20px;
+  margin-right: 12px;
+}
+
+.icono {
+  margin-top: 20px;
+  width: 160px;
+}
+
+h1,
+h2 {
+  margin-top: 10px;
+}
+.detalle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+
+.detalle .col {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.detalle .col img {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.titlepage {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 50px;
+}
